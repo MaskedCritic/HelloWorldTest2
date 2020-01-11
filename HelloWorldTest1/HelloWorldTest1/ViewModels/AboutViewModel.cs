@@ -11,7 +11,7 @@ namespace HelloWorldTest1.ViewModels
         {
             Title = "About";
 
-            OpenWebCommand = new Command(() => Device.OpenUri(new Uri("https://xamarin.com/platform")));
+            OpenWebCommand = new Command(() => Device.OpenUri(new Uri("https://github.com/MaskedCritic/HelloWorldTest2")));
         }
 
         public ICommand OpenWebCommand { get; }

@@ -14,12 +14,10 @@ namespace HelloWorldTest1.Services
         {
             items = new List<Item>()
             {
-                new Item { Id = Guid.NewGuid().ToString(), Text = "First item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Second item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Third item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Fourth item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Fifth item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Sixth item", Description="This is an item description." }
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Platform Chosen", Description="Xamarin Android/iOS." },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Reason Chosen", Description="I prefer having options, and also C#." },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Source Control Chosen", Description="GitHub." },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Reason Chosen", Description="It's reliable, IDE integrated, and I already have it." }
             };
         }
 
